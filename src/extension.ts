@@ -11,12 +11,12 @@ export function activate(context: vscode.ExtensionContext) {
 function getRandomJoke() {
     const jokes = [
         "Why don't programmers like nature? It has too many bugs.",
-    	"Why do programmers always mix up Halloween and Christmas? Because Oct 31 === Dec 25.",
-    	"Why do programmers prefer iOS development? Because on iOS, there are no Windows or Gates.",
-    	"Why do programmers always get Christmas and Halloween mixed up? Because 31 OCT equals 25 DEC.",
-    	"Why did the programmer quit his job? Because he didn't get arrays.",
-    	"Why did the programmer go broke? Because he used up all his cache.",
-    	"Why do programmers prefer dark mode? Because light attracts bugs.",
+		"Why do programmers always mix up Halloween and Christmas? Because Oct 31 === Dec 25.",
+		"Why do programmers prefer iOS development? Because on iOS, there are no Windows or Gates.",
+		"Why do programmers always get Christmas and Halloween mixed up? Because 31 OCT equals 25 DEC.",
+		"Why did the programmer quit his job? Because he didn't get arrays.",
+		"Why did the programmer go broke? Because he used up all his cache.",
+		"Why do programmers prefer dark mode? Because light attracts bugs.",
 		"Why was the computer cold? It left its Windows open.",
 		"Why did the web developer walk out of a restaurant? He didn't like the table layout.",
 		"How do you comfort a JavaScript bug? You console it.",
@@ -33,9 +33,14 @@ function getRandomJoke() {
 		"Why was the computer cold at work? It left its Windows open.",
 		"What do you call a programmer from Finland? Nerdic.",
 		"Why did the computer break up with the internet? There was no connection.",
-		"Why do Java programmers have to wear glasses? Because they don’t C#.",
-		"A programmer had a problem. He decided to use Java. He now has a ProblemFactory."
-    ];
+		"Why do Java programmers have to wear glasses? Because they don't C#.",
+		"Why are Assembly programmers always soaking wet? They work below C-level.",
+		"How do you tell HTML from HTML5? Try it out in Internet Explorer. Did it work? No? It's HTML5.",
+		"A programmer had a problem. He decided to use Java. He now has a ProblemFactory.",
+		"3 SQL databases walked into a NoSQL bar. A little while later they walked out, because they couldn't find a table.",
+		"An SQL query goes into a bar, walks up to two tables, and asks,'Can I join you?'",
+		"A web developer walks into a restaurant. He immediately leaves in disgust as the restaurant was laid out in tables."   
+	];
 
     const randomIndex = Math.floor(Math.random() * jokes.length);
     return jokes[randomIndex];
