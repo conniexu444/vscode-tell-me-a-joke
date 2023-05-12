@@ -39,7 +39,11 @@ function getRandomJoke() {
 		"A programmer had a problem. He decided to use Java. He now has a ProblemFactory.",
 		"3 SQL databases walked into a NoSQL bar. A little while later they walked out, because they couldn't find a table.",
 		"An SQL query goes into a bar, walks up to two tables, and asks,'Can I join you?'",
-		"A web developer walks into a restaurant. He immediately leaves in disgust as the restaurant was laid out in tables."   
+		"A web developer walks into a restaurant. He immediately leaves in disgust as the restaurant was laid out in tables.",
+		"Why did the two Java methods get a divorce? Because they had constant arguments.",
+		"Why did the edge server go bankrupt? Because it ran out of cache",
+		"Why did the private classes break up? Because they never saw each other.",
+		"Why did the Java developer teach his young kids about single quotes? Because they build character."
 	];
 
     const randomIndex = Math.floor(Math.random() * jokes.length);
