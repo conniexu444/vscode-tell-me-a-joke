@@ -13,7 +13,8 @@
                 "esbenp.prettier-vscode",
                 "github.copilot",
                 "github.vscode-pull-request-github",
-                "mhutchie.git-graph"
+                "mhutchie.git-graph",
+                "conniexu444.tell-me-a-joke"
             ]
         }
     }
